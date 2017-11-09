@@ -1,4 +1,7 @@
 # Interview Practice
+Author: Ellen Liu
+Last Edit: 11/9/2017
+
 Udacity Full-Stack Nanodegree provided some interview questions for practice.
 
 1) What is the most influential book or blog post you’ve read regarding web
@@ -29,7 +32,7 @@ string that is an HTML unordered list (<ul>...</ul>) of those strings. You
 should include a brief explanation of your code. Then, what would you have to
 consider if the original list was provided by user input?
 
-'''
+```
 test = ["test", "here", "testing"]
 
 def turn_to_list(arr):
@@ -39,7 +42,7 @@ def turn_to_list(arr):
   return str+"</ul>"
 
 print turn_to_list(test)
-'''
+```
 
 I made a function that takes in a list of strings and it would concatenate all
 into one string. I started the string with the <ul> tag and used a for loop that
@@ -76,7 +79,7 @@ be reviewed to see if there are any vulnerabilities.
 include a route that simulates rolling two dice and returns the result in JSON.
 You should include a brief explanation of your code.
 
-'''
+```
   from flask import Flask
   app = Flask(__name__)
 
@@ -94,7 +97,7 @@ You should include a brief explanation of your code.
   if __name__ == '__main__':
    app.debug = True
    app.run()
-'''
+```
 
 I provided a path for the site with the app route. Assuming the die has 6 sides
 from 1-6, it returns a JSON string of result.
@@ -106,3 +109,9 @@ libraries and modern technologies like Node.js and Angular.js. I have made a few
 applications, but would like to gain knowledge on how to make it more efficient
 and organized. I would also like to dive deeper on how to make a more secure web
 application to ensure safety and privacy for all of intended users.
+
+## Bibliography
+1) https://securityintelligence.com/the-10-most-common-application-attacks-in-action/
+2) https://stackoverflow.com/questions/16668511/python-dump-dict-as-a-json-string
+3) https://www.business2community.com/crisis-management/common-web-application-attacks-prevent-0949592
+4) https://tympanus.net/codrops/2013/09/23/so-youre-a-web-designer-right/
