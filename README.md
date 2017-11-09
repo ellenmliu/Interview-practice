@@ -45,6 +45,7 @@ def turn_to_list(arr):
 
 print turn_to_list(test)
 ```
+
     I made a function that takes in a list of strings and it would concatenate all
 into one string. I started the string with the `<ul>` tag and used a for loop that
 would iterate through the list. Each element will be wrapped with `<li>` and `</li>`
@@ -98,7 +99,7 @@ You should include a brief explanation of your code.
   if __name__ == '__main__':
    app.debug = True
    app.run()
-```
+   ```
     I provided a path for the site with the app route. Assuming the die has 6 sides
 from 1-6, it returns a JSON string of result.
 
