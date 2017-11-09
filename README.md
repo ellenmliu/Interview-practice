@@ -6,6 +6,7 @@ Udacity Full-Stack Nanodegree provided some interview questions for practice.
 
 1) What is the most influential book or blog post you’ve read regarding web
 development?
+
 The most influential blog post I have read about web development is 'So, You’re
 a Web Designer, Right?' by Gorka Melero. In this post, he explains how web design
 was like a few years ago, and how technology evolving affects the way
@@ -17,6 +18,7 @@ latest technologies and be opened to incorporate it.
 2) Tell me about a web application you have built. Why did you choose to build
 it? What did you learn? What challenges did you face and how did you overcome
 them?
+
 One web application I built is Census, which is a plant tracker that accompanies
 the phone app made for it. I chose to build it so that a user can have access to
 their plants online and for users to have more details about the app. While building,
@@ -28,7 +30,7 @@ Even though it was challenging getting the web app hosted, I was able to learn
 how to use new technology.
 
 3) Write a function in Python that takes a list of strings and returns a single
-string that is an HTML unordered list (<ul>...</ul>) of those strings. You
+string that is an HTML unordered list (`<ul>...</ul>`) of those strings. You
 should include a brief explanation of your code. Then, what would you have to
 consider if the original list was provided by user input?
 
@@ -45,10 +47,10 @@ print turn_to_list(test)
 ```
 
 I made a function that takes in a list of strings and it would concatenate all
-into one string. I started the string with the <ul> tag and used a for loop that
-would iterate through the list. Each element will be wrapped with <li> and </li>
+into one string. I started the string with the `<ul>` tag and used a for loop that
+would iterate through the list. Each element will be wrapped with `<li>` and `</li>`
 tags and concatenate with the result string. After the loop, I add in the end
-</ul> tag and return the result. If the list was provided by the user, I would
+`</ul>` tag and return the result. If the list was provided by the user, I would
 have to consider checking if the input is a list and if the elements within the
 list are all strings.
 
@@ -102,8 +104,10 @@ You should include a brief explanation of your code.
 I provided a path for the site with the app route. Assuming the die has 6 sides
 from 1-6, it returns a JSON string of result.
 
+
 6) If you were to start your full-stack developer position today, what would be
 your goals a year from now?
+
 If I were to start my full-stack developer today, I would aim to pick up other
 libraries and modern technologies like Node.js and Angular.js. I have made a few
 applications, but would like to gain knowledge on how to make it more efficient
