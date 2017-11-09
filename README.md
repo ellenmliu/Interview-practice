@@ -34,7 +34,7 @@ string that is an HTML unordered list (`<ul>...</ul>`) of those strings. You
 should include a brief explanation of your code. Then, what would you have to
 consider if the original list was provided by user input?
 
-I made a function that takes in a list of strings and it would concatenate all
+    I made a function that takes in a list of strings and it would concatenate all
 into one string. I started the string with the `<ul>` tag and used a for loop that
 would iterate through the list. Each element will be wrapped with `<li>` and `</li>`
 tags and concatenate with the result string. After the loop, I add in the end
@@ -81,7 +81,7 @@ be reviewed to see if there are any vulnerabilities.
 include a route that simulates rolling two dice and returns the result in JSON.
 You should include a brief explanation of your code.
 
-I provided a path for the site with the app route. Assuming the die has 6 sides
+    I provided a path for the site with the app route. Assuming the die has 6 sides
 from 1-6, it returns a JSON string of result.
 
 ```
