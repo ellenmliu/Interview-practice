@@ -7,13 +7,13 @@ Udacity Full-Stack Nanodegree provided some interview questions for practice.
 1) What is the most influential book or blog post you’ve read regarding web
 development?
 
-&nbsp;&nbsp;The most influential blog post I have read about web development is 'So, You’re
+<p>The most influential blog post I have read about web development is 'So, You’re
 a Web Designer, Right?' by Gorka Melero. In this post, he explains how web design
 was like a few years ago, and how technology evolving affects the way
 a web designer goes about their work. He goes on about how new tech is made for
 the convenience of our lives, but so many people rejects it because they
 are so used to what they are doing. It encourages me to keep updated with the
-latest technologies and be opened to incorporate it.
+latest technologies and be opened to incorporate it.</p>
 
 2) Tell me about a web application you have built. Why did you choose to build
 it? What did you learn? What challenges did you face and how did you overcome
