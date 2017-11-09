@@ -7,7 +7,7 @@ Udacity Full-Stack Nanodegree provided some interview questions for practice.
 1) What is the most influential book or blog post you’ve read regarding web
 development?
 
-&nbsp;The most influential blog post I have read about web development is 'So, You’re
+&nbsp;&nbsp;The most influential blog post I have read about web development is 'So, You’re
 a Web Designer, Right?' by Gorka Melero. In this post, he explains how web design
 was like a few years ago, and how technology evolving affects the way
 a web designer goes about their work. He goes on about how new tech is made for
@@ -19,7 +19,7 @@ latest technologies and be opened to incorporate it.
 it? What did you learn? What challenges did you face and how did you overcome
 them?
 
-* One web application I built is Census, which is a plant tracker that accompanies
+&nbsp;&nbsp; One web application I built is Census, which is a plant tracker that accompanies
 the phone app made for it. I chose to build it so that a user can have access to
 their plants online and for users to have more details about the app. While building,
 I learned how to use different services, like Firebase and Heroku,
@@ -46,7 +46,7 @@ def turn_to_list(arr):
 print turn_to_list(test)
 ```
 
-* I made a function that takes in a list of strings and it would concatenate all
+&nbsp;&nbsp; I made a function that takes in a list of strings and it would concatenate all
 into one string. I started the string with the `<ul>` tag and used a for loop that
 would iterate through the list. Each element will be wrapped with `<li>` and `</li>`
 tags and concatenate with the result string. After the loop, I add in the end
@@ -58,22 +58,22 @@ list are all strings.
 4) List 2-3 attacks that web applications are vulnerable to. How do these
 attacks work? How can we prevent those attacks?
 
-* Cross-Site Scripting is when the attacker insert JavaScript in the pages to the
+&nbsp;&nbsp; Cross-Site Scripting is when the attacker insert JavaScript in the pages to the
 site to have control over the information, like sending information from the
 site to an evil server. Some ways to prevent this is input validation and use
 HttpOnly attribute for cookies.
-* DDoS Attacks is to make the network resource unavailable to its intended users
+&nbsp;&nbsp; DDoS Attacks is to make the network resource unavailable to its intended users
 by either making it slow or even taking the site offline through generating
 requests from thousands of IP addresses. There are many DDoS protection tools
 out there to prevent these attacks from happening.
-* SQL Injection is when it takes advantage of the vulnerabilities to gain control
+&nbsp;&nbsp; SQL Injection is when it takes advantage of the vulnerabilities to gain control
 of the database and the data stored in them, which includes name, email
 addresses, and any other private information. To prevent this attack, we must
 regularly check upon any vulnerabilities and fix them before the attacks would
 happen. Using a parameterized API, running the application with minimal
 privileges, and validating and sanitizing input would be a few ways to do so.
 
-* Some other ways to prevent any of these attacks is to add in services, like
+&nbsp;&nbsp; Some other ways to prevent any of these attacks is to add in services, like
 CAPTCHA, that checks if the user is a bot or a human. Also having the code to
 be reviewed to see if there are any vulnerabilities.
 
@@ -101,14 +101,14 @@ You should include a brief explanation of your code.
    app.run()
 ```
 
-* I provided a path for the site with the app route. Assuming the die has 6 sides
+&nbsp;&nbsp; I provided a path for the site with the app route. Assuming the die has 6 sides
 from 1-6, it returns a JSON string of result.
 
 
 6) If you were to start your full-stack developer position today, what would be
 your goals a year from now?
 
-* If I were to start my full-stack developer today, I would aim to pick up other
+&nbsp;&nbsp; If I were to start my full-stack developer today, I would aim to pick up other
 libraries and modern technologies like Node.js and Angular.js. I have made a few
 applications, but would like to gain knowledge on how to make it more efficient
 and organized. I would also like to dive deeper on how to make a more secure web
