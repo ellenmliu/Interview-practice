@@ -34,6 +34,15 @@ string that is an HTML unordered list (`<ul>...</ul>`) of those strings. You
 should include a brief explanation of your code. Then, what would you have to
 consider if the original list was provided by user input?
 
+I made a function that takes in a list of strings and it would concatenate all
+into one string. I started the string with the `<ul>` tag and used a for loop that
+would iterate through the list. Each element will be wrapped with `<li>` and `</li>`
+tags and concatenate with the result string. After the loop, I add in the end
+`</ul>` tag and return the result. If the list was provided by the user, I would
+have to consider checking if the input is a list and if the elements within the
+list are all strings.
+
+
 ```
 test = ["test", "here", "testing"]
 
@@ -45,14 +54,6 @@ def turn_to_list(arr):
 
 print turn_to_list(test)
 ```
-    I made a function that takes in a list of strings and it would concatenate all
-into one string. I started the string with the `<ul>` tag and used a for loop that
-would iterate through the list. Each element will be wrapped with `<li>` and `</li>`
-tags and concatenate with the result string. After the loop, I add in the end
-`</ul>` tag and return the result. If the list was provided by the user, I would
-have to consider checking if the input is a list and if the elements within the
-list are all strings.
-
 
 4) List 2-3 attacks that web applications are vulnerable to. How do these
 attacks work? How can we prevent those attacks?
@@ -80,6 +81,9 @@ be reviewed to see if there are any vulnerabilities.
 include a route that simulates rolling two dice and returns the result in JSON.
 You should include a brief explanation of your code.
 
+I provided a path for the site with the app route. Assuming the die has 6 sides
+from 1-6, it returns a JSON string of result.
+
 ```
   from flask import Flask
   app = Flask(__name__)
@@ -99,9 +103,6 @@ You should include a brief explanation of your code.
    app.debug = True
    app.run()
 ```
-    I provided a path for the site with the app route. Assuming the die has 6 sides
-from 1-6, it returns a JSON string of result.
-
 
 6) If you were to start your full-stack developer position today, what would be
 your goals a year from now?
